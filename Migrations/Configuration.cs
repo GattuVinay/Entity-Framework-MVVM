@@ -58,18 +58,18 @@ namespace Mini_projekat_2___Entity_Framework_MVVM.Migrations
                 },
                 new Student
                 {
-                    sFirstName = "Petar",
-                    sLastName = "Petrovic",
-                    Address = new Address { Address1 = "Ulica 3", City = "Grad 2", Country = "Zemlja 2" },
+                    sFirstName = "Kiran",
+                    sLastName = "Gonugunta",
+                    Address = new Address { Address1 = "India", City = "Hyderabad", Country = "India" },
                     Courses = new List<Course>
                     {
                         new Course
                         {
-                            cName = "Kurs3"
+                            cName = "Mech"
                         },
                         new Course
                         {
-                            cName = "Kurs2"
+                            cName = "Mech"
                         }
                     }
                 },
