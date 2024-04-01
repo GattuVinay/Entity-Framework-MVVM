@@ -24,35 +24,35 @@ namespace Mini_projekat_2___Entity_Framework_MVVM.Migrations
             context.Students.AddOrUpdate(s => s.StudentId,
                 new Student
                 {
-                    sFirstName = "Marko",
-                    sLastName = "Markovic",
-                    Address = new Address { Address1 = "Ulica 1", City = "Grad 1", Country = "Zemlja 1" },
+                    sFirstName = "Vinay",
+                    sLastName = "Kumar",
+                    Address = new Address { Address1 = "Hyderabad", City = "Hyderabad", Country = "India" },
                     Courses = new List<Course>
                     {
                         new Course
                         {
-                            cName = "Kurs1"
+                            cName = "ECE"
                         },
                         new Course
                         {
-                            cName = "Kurs2"
+                            cName = "EEE"
                         }
                     }
                 },
                 new Student
                 {
-                    sFirstName = "Nikola",
-                    sLastName = "Nikolic",
-                    Address = new Address { Address1 = "Ulica 2", City = "Grad 2", Country = "Zemlja 2" },
+                    sFirstName = "Anil",
+                    sLastName = "Kumar",
+                    Address = new Address { Address1 = "Nellor", City = "Hyderabad", Country = "India" },
                     Courses = new List<Course>
                     {
                         new Course
                         {
-                            cName = "Kurs1"
+                            cName = "EEE"
                         },
                         new Course
                         {
-                            cName = "Kurs2"
+                            cName = "CIVIL"
                         }
                     }
                 },
