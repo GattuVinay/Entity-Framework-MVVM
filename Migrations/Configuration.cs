@@ -73,26 +73,7 @@ namespace Mini_projekat_2___Entity_Framework_MVVM.Migrations
                         }
                     }
                 },
-                new Student
-                {
-                    sFirstName = "Marija",
-                    sLastName = "Markovic",
-                    Address = new Address { Address1 = "Ulica 2", City = "Grad 2", Country = "Zemlja 2" },
-                    Courses = new List<Course>
-                    {
-                        new Course
-                        {
-                            cName = "Kurs1"
-                        },
-                        new Course
-                        {
-                            cName = "Kurs2"
-                        },
-                        new Course
-                        {
-                            cName = "Kurs3"
-                        }
-                    }
+                
                 }
                 );
         }
